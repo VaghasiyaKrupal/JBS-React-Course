@@ -338,19 +338,7 @@
     position: relative;
     width: 100%;
     height: 100% !important;
-    -o-object-fit: cover;
     object-fit: cover;
-    -o-object-position: center;
-    object-position: center;
-}
-
-.kf-menu-item .image img {
-    position: relative;
-    width: 100%;
-    height: 100% !important;
-    -o-object-fit: cover;
-    object-fit: cover;
-    -o-object-position: center;
     object-position: center;
 }
 
