@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body{
+    background-color: #B0E0E6;
+}
+
+#schoolName{
+  font-size: 40px;
+}
+
+#marksheet{
+  font-size: 20px;
+}
+
+table,tr,th,td{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: blue;
+}
+

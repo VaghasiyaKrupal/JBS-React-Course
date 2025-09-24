@@ -17,9 +17,11 @@
     align-items: center;
     padding: 9px;
 }
+
 .topBar{
     background-color: #FF7361;
 }
+
 .top-nav {
     display: flex;
     list-style: none;
@@ -48,9 +50,11 @@ input {
     background-color: transparent;
     border: none;
 }
+
 .mainNavigation{
     background-color: black;
 }
+
 .MAIN {
     display: flex;
     justify-content: space-between;
