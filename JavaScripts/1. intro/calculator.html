@@ -1,0 +1,61 @@
+<html>
+
+<body>
+    <script>
+
+        // let digit = parseInt(prompt("Enter First Value: "));
+        // let operator = prompt("Enter operator (+, -, *, /): ");
+        // let second_digit = parseInt(prompt("Enter Second Value: "));
+
+        // let result
+        // if (operator === '+') {
+        //     result = digit + second_digit;
+        // }
+        // else if (operator === '-') {
+        //     result = digit - second_digit;
+        // }
+        // else if (operator === '/') {
+        //     result = digit / second_digit;
+        // }
+        // else if (operator === '*') {
+        //     result = digit * second_digit;
+        // }
+        // else {
+        //     document.write('Invalid operator!')
+        // }
+
+        // document.write(result);
+
+        let num=153,r,arm=0,i;
+
+	// for(i=num; i!=0;i=i/10)
+	// {
+	// 	r=i%10;
+	// 	console.log(r);
+	// 	arm=parseInt(arm+(r*r*r));
+	// 	console.log(arm);
+	// }
+
+	// if(num==arm)
+	// {
+	// 	console.log("Armstrong number.");
+	// }
+	// else
+	// {
+	// 	console.log("Not armstrong number.");
+	// }
+
+    for(i=num; num!=0; num=parseInt(num/10)){
+        r=num%10;
+        arm= arm+(r*r*r);
+    }
+    if(i==arm){
+        console.log("arm");
+    }else{
+        console.log("not");
+    }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+body{
+    background-color: powderblue;
+}
+
+h1{
+    color: blueviolet;;
+}
+
+p{
+    color: brown;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    border: 2px solid gray;
+    padding: 5px;
+    margin: 10px;
+}
+
+button{
+    background-color: slateblue;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10;
+    padding: 10;
+}
+
+table,tr,th,td{
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: blue;
+}
+
+th,td{
+    /*background-color: wheat;*/
+    color: black;
+}
+
+tr:nth-child(even){
+    background-color:aquamarine;
+}
+
+div {
+    background-color: bisque;
+    margin: auto;
+    width: 300px;
+    padding: 5px;
+    float: left;
+}
+
+div p {
+    margin: auto;
+    width: 300px;
+    border: none;
+}

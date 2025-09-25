@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    padding: 20px;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.header>h1>a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.header>h1>a:hover {
+    color: #000;
+}
+
+.sevenWonders h1 {
+    text-align: center;
+    padding: 25px;
+    margin: 25px auto;
+    background-color: thistle;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.image-gallery {
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start; 
+    margin: 0 auto;
+}
+
+.img-box {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    height: 250px;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 10px;
+}
+
+.img-box:hover{
+    box-shadow: 5px 5px 5px rosybrown;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.image-gallery img {
+    margin-bottom: 10px;
+    height: 200px;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.img-box >p {
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    color: black;
+    font-weight: bold;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    /* border-bottom: 3px solid red; */
+    /* padding: 5px; */
+    /* margin: 20px; */
+    /* z-index: 1; */
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.image-gallery a {
+    text-decoration: none;
+    color: brown;
+}
+
+.image-gallery a:hover {
+    text-decoration: underline;
+    color: darkmagenta;
+}

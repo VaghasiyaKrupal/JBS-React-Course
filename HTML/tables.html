@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tables in HTML</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <h1 style="margin: 20px;">Table 1</h1>
+        <table style="margin: 20px; ">
+            <tr>
+                <th>No.</th>
+                <th>Full name</th>
+                <th>Position</th>
+                <th>Salary</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Founder of Microsoft</td>
+                <td>$5000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Founder of Apple</td>
+                <td>$4000</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Pary Page</td>
+                <td>Founder of google</td>
+                <td>$4500</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Elon Musk</td>
+                <td>Founder of Tesla</td>
+                <td>$3000</td>
+            </tr>
+        </table>
+        
+        <h1 style="margin: 20px;">Table 2</h1>
+        <table style="margin: 20px;">
+            <tr>
+                <th colspan="7">Time Table</th>
+            </tr>
+            <tr>
+                <th rowspan="6">Hours</th>
+                <th>Monday</th>
+                <th>tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+            <tr>
+                
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>English</td>
+                <td>Economy</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+                <td>Sports</td>
+                <td>Chemistry</td>
+            </tr>
+            <tr>
+                <th colspan="7">Lunch</th>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>English</td>
+                <td rowspan="2">Projects</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+                <td>English</td>
+            </tr>
+        </table>
+        
+        <h1 style="margin: 20px;">Table 3</h1>
+        <table style="margin: 20px;">
+            <tr>
+                <h5 style="margin: 20px;"">A test table with merged cells</h5>
+            </tr>
+            <tr>
+                <th rowspan="2"></th>
+                <th colspan="2">Average</th>
+                <th rowspan="2">Red eyes</th>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <th>Weight</th>
+            </tr>
+            <tr>
+                <th>Males</th>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <th>Females</th>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </table>
+
+        <h1 style="margin: 20px;">Table 4</h1>
+        <table style="margin: 20px;">
+            <tr>
+                <th colspan="2">Student Name</th>
+                <th colspan="3">Labs</th>
+                <th rowspan="2">Avg</th>
+            </tr>
+            <tr>
+                <th>First</th>
+                <th>Last</th>
+                <th>Lab1</th>
+                <th>Lab2</th>
+                <th>Lab3</th>
+            </tr>
+            <tr>
+                <td>Sol</td>
+                <td>Rosenberg</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100.0</td>
+            </tr>
+            <tr>
+                <td>Frank</td>
+                <td>Rizzo</td>
+                <td>50</td>
+                <td>60</td>
+                <td>90</td>
+                <td>66.6</td>
+            </tr>
+            <tr>
+                <td>Ali</td>
+                <td>Kam</td>
+                <td>90</td>
+                <td>80</td>
+                <td>60</td>
+                <td>76.6</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Summary</th>
+                <th>Avg</th>
+                <td>80.0</td>
+                <td>80.0</td>
+                <td>83.3</td>
+                <td>81.1</td>
+            </tr>
+            <tr>
+                <th>Min</th>
+                <td>50</td>
+                <td>60</td>
+                <td>60</td>
+                <td>66.6</td>
+            </tr>
+        </table>
+
+        <h1 style="margin: 20px;">Table 5</h1>
+        <table style="margin: 20px;">
+            <tr>
+                <th>Country</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Street</th>
+                <th>Male</th>
+                <th>Female</th>
+                <th>Others</th>
+            </tr>
+            <tr>
+                <td rowspan="8">1</td>
+                <td rowspan="4">Kerala</td>
+                <td rowspan="2">Cochin</td>
+                <td>New Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>Main Stree</td>
+                <td>300</td>
+                <td>288</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Trivandruni</td>
+                <td>Guru Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>TVK Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="4">maharashtra</td>
+                <td rowspan="2">Mumbai</td>
+                <td>Krisha Street</td>
+                <td>700</td>
+                <td>850</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Main Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Surath</td>
+                <td>New Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Billa Street</td>
+                <td>500</td>
+                <td>600</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td rowspan="2">2</td>
+                <td rowspan="2">Alaska</td>
+                <td rowspan="2">AKA Central</td>
+                <td>New Street</td>
+                <td>200</td>
+                <td>210</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Cross Street</td>
+                <td>1000</td>
+                <td>1050</td>
+                <td>10</td>
+            </tr>
+        </table>
+
+        <h1 style="margin: 20px;">Table 6</h1>
+        <table style="margin: 20px;">
+            <tr>
+                <td colspan="7">Certificat showing the number of marks obtained by<br>Shri/Smt.Kumar<br>of <strong>SIR P.T.SARVAJANIK COLLEGE OF SCIENCE, SURAT</strong><br>
+                in each header of passing at the <strong>BACHELOR OF SCIENCE (FIFTH SEMESTER) held in APRIL - 2016</strong></td>
+                <td colspan="3">ID NO.</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Subject Name</th>
+                <th colspan="3">Passing Marks</th>
+                <th colspan="6">Mark Obtained</th>
+            </tr>
+            <tr>
+                <th>External</th>
+                <th>Internal</th>
+                <th>Total</th>
+                <th>External</th>
+                <th>Internal</th>
+                <th>Total</th>
+                <th>GR</th>
+                <th>GP</th>
+                <th>Credit</th>
+            </tr>
+            <tr>
+                <th style="text-align: left;">LANGUAGE THROUGH LITERATURE</th>
+                <th>50/18</th>
+                <th>20</th>
+                <th>70/25</th>
+                <th>19</th>
+                <th>(09)</th>
+                <th>28</th>
+                <th>E</th>
+                <th>5</th>
+                <th>2</th>
+            </tr>
+            <tr>
+                <td>Paper - VI</td>
+                <td colspan="3"></td>
+                <td colspan="3"></td>
+                <td rowspan="6" colspan="3"></td>
+            </tr>
+            <tr>
+                <td>Paper - VII</td>
+                <td colspan="3"></td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td>Paper - VIII</td>
+                <td colspan="3"></td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td>Paper - IX</td>
+                <td colspan="3"></td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td>Paper - X</td>
+                <td colspan="3"></td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td>Paper - XI</td>
+                <td colspan="3"></td>
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td>PHYSICS</td>
+                <td>300/108</td>
+                <td>120</td>
+                <td>420/151</td>
+                <td>(143)</td>
+                <td>(60)</td>
+                <td>(203)</td>
+                <td>E</td>
+                <td>5</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>PHYSICS PRACTICAL</td>
+                <td>120/43</td>
+                <td>60</td>
+                <td>180/65</td>
+                <td>(91)</td>
+                <td>(44)</td>
+                <td>(135)</td>
+                <td>B</td>
+                <td>8</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>ELECTRONICS</td>
+                <td>50/18</td>
+                <td>20</td>
+                <td>75/25</td>
+                <td>(26)</td>
+                <td>(10)</td>
+                <td>(36)</td>
+                <td>D</td>
+                <td>6</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>NATIONAL SERVICE SCHEME</td>
+                <td colspan="8"></td>>
+                <td>2</td>
+            </tr>
+            <tr>
+                <th>Aggregate Total</th>
+                <th>520</th>
+                <th></th>
+                <th>740</th>
+                <th>279</th>
+                <td></td>
+                <th>402</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>Result</th>
+                <th colspan="9">Pass</th>
+            </tr>
+        </table>
+    </body>
+</html>

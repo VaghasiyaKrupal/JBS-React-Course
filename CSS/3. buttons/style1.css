@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: bisque;
+    color: black;
+}
+
+.btn1 {
+    /* border: 3px solid rgb(214, 219, 219); */
+    font-size: 30px;
+    padding: 5px;
+    /* background-color: darkcyan; */
+    border-radius: 7px;
+    color: #fff;
+    margin: 15px;
+    background: linear-gradient(250deg, rgb(142, 182, 184), rgb(108, 108, 153), rgb(206, 185, 147), rgb(158, 92, 92));
+    transition: .3s;
+}
+
+.btn2 {
+    /* border: 3px solid rgb(89, 104, 104); */
+    font-size: 30px;
+    padding: 5px 20px;
+    /* background-color: rgb(13, 128, 128); */
+    border-radius: 7px;
+    color: #fff;
+    margin: 15px;
+    background: linear-gradient(280deg, rgb(207, 207, 135), #d88ad8, rgb(204, 138, 138), gray);
+    letter-spacing: 3px;
+    transition: 0.3s;
+}
+
+.btn3 {
+    /* border: 3px solid rgb(37, 129, 83); */
+    font-size: 30px;
+    padding: 5px 20px 3px;
+    /* background-color: darkcyan; */
+    border-radius: 7px;
+    color: #fff;
+    margin: 15px;
+    text-wrap: nowrap;
+    word-spacing: 5px;
+    background: linear-gradient(170deg, bisque, #2f8669, burlywood);
+    transition: .2s;
+}
+
+.btn4 {
+    /* border: 3px solid rgb(35, 218, 218); */
+    font-size: 30px;
+    padding: 5px 20px 3px 10px;
+    /* background-color: darkcyan; */
+    border-radius: 7px;
+    color: #fff;
+    margin: 15px;
+    background: linear-gradient(80deg, yellowgreen, violet, teal);
+}
+
+.btn5 {
+    /* border: 3px solid darkcyan; */
+    font-size: 30px;
+    padding: 5px;
+    /* background-color: darkcyan; */
+    border-radius: 7px;
+    color: #fff;
+    margin: 15px;
+    background: linear-gradient(160deg, lightgreen, rgb(235, 163, 235), rgb(139, 139, 68), rgb(81, 81, 128));
+}
+
+.btn6 {
+    /* border: 3px solid darkcyan; */
+    font-size: 30px;
+    padding: 5px;
+    /* background-color: darkcyan; */
+    border-radius: 7px;
+    color: #fff;
+    margin: 15px;
+    background: radial-gradient(circle, rgb(48, 61, 48), rgb(137, 216, 137), gray, rgb(182, 201, 145));
+}
+
+.btn7 {
+    /* border: 3px solid darkcyan; */
+    font-size: 30px;
+    padding: 5px;
+    /* background-color: darkcyan; */
+    border-radius: 7px;
+    color: #fff;
+    margin: 15px;
+    background: radial-gradient(circle, rgb(190, 128, 128), rgb(92, 92, 189), rgb(165, 165, 107));
+}
+
+.btn8 {
+    /* border: 3px solid darkcyan; */
+    font-size: 30px;
+    padding: 5px;
+    /* background-color: darkcyan; */
+    border-radius: 7px;
+    color: #fff;
+    margin: 15px;
+    background: radial-gradient(circle, blueviolet, rgb(190, 123, 190), rgb(179, 115, 104), rgb(10, 102, 105));
+}
+
+.btn9 {
+    /* border: 3px solid darkcyan; */
+    font-size: 30px;
+    padding: 5px;
+    /* background-color: darkcyan; */
+    border-radius: 7px;
+    color: #fff;
+    margin: 15px;
+    background: radial-gradient(rgb(9, 110, 114), rgb(84, 168, 84), rgb(2, 24, 24));
+}
+
+.btn10 {
+    /* border: 3px solid darkcyan; */
+    font-size: 30px;
+    padding: 5px;
+    /* background-color: darkcyan; */
+    border-radius: 7px;
+    color: #fff;
+    margin: 15px;
+    background: linear-gradient(steelblue, sienna, royalblue);
+}
+
+.btn1:hover {
+    background: linear-gradient(80deg, rgb(142, 182, 184), rgb(108, 108, 153), rgb(206, 185, 147), rgb(158, 92, 92));
+    color: #fff;
+    letter-spacing: 2px;
+    box-shadow: none;
+    font-size: 31px;
+    box-shadow: 2px 5px 10px cadetblue;
+    border: 1px solid rgb(98, 98, 173);
+}
+
+.btn2:hover {
+    color: #cfcf87 #d88ad8 #cc8a8a gray;
+    box-shadow: 5px 5px 10px #d88ad8;
+    border: 2px solid #d88ad8;
+    text-shadow: 5px 5px 10px black;
+}
+
+.btn3:hover {
+    color: black;
+    background: linear-gradient(#2f8669, burlywood);
+    text-shadow: 5px 5px 5px white;
+    border: 1px solid #2f8669;
+}
+
+.btn4:hover {
+    color: #fff;
+    background: linear-gradient(#0d7451, rgb(146, 104, 50));
+    text-shadow: 5px 5px 5px white;
+    border: 1px solid #2f8669;
+}
+
+.btn5:hover {
+    color: white;
+    background: linear-gradient(#101815, rgb(196, 135, 55));
+    text-shadow: 5px 5px 5px white;
+    border: 1px solid #2f8669;
+}
+
+.btn6:hover {
+    color: black;
+    background: linear-gradient(#2f8669, burlywood);
+    text-shadow: 5px 5px 5px white;
+    border: 1px solid #2f8669;
+}
+
+.btn7:hover {
+    color: black;
+    background: linear-gradient(#2f8669, burlywood);
+    text-shadow: 5px 5px 5px white;
+    border: 1px solid #2f8669;
+}
+
+.btn8:hover {
+    color: black;
+    background: linear-gradient(#2f8669, burlywood);
+    text-shadow: 5px 5px 5px white;
+    border: 1px solid #2f8669;
+}
+
+.btn9:hover {
+    color: black;
+    background: linear-gradient(#2f8669, burlywood);
+    text-shadow: 5px 5px 5px white;
+    border: 1px solid #2f8669;
+}
+
+.btn10:hover {
+    color: black;
+    background: linear-gradient(#2f8669, burlywood);
+    text-shadow: 5px 5px 5px white;
+    border: 1px solid #2f8669;
+}
+

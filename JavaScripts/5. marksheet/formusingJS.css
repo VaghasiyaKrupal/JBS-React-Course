@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(161, 224, 224);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form-container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+table,
+tr,
+th,
+td {
+  padding: 10px;
+  border: 1px solid blue;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
