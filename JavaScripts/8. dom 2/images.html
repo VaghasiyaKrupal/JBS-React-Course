@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="images.css">
+</head>
+
+<body>
+
+    <div class="image-container">
+        <img src="cat.jpg" id="img1" alt="cat-image" onmouseenter="show1()" onmouseleave="leave1()">
+        <img src="FOX.jpg" id="img2" alt="fox-image" onmouseenter="show2()" onmouseleave="leave2()">
+        <img src="LION 2.jpg" id="img3" alt="lion-image" onmouseenter="show3()" onmouseleave="leave3()">
+        <img src="RABBIT.jpg" id="img4" alt="rabit-image" onmouseenter="show4()" onmouseleave="leave4()">
+    </div>
+
+
+    <script>
+        function show1() {
+            const myImg = document.getElementById("img1")
+            myImg.src = "COW.jfif"
+            myImg.setAttribute('height', "200px")
+        }
+
+        function leave1() {
+            const myImg = document.getElementById("img1")
+            myImg.src = "cat.jpg"
+        }
+
+        function show2() {
+            const myImg = document.getElementById("img2")
+            myImg.src = "fish.jpg"
+            myImg.setAttribute('height', "200px")
+        }
+
+        function leave2() {
+            const myImg = document.getElementById("img2")
+            myImg.src = "fox.jpg"
+        }
+
+        function show3() {
+            const myImg = document.getElementById("img3")
+            myImg.src = "tiger.jpg"
+            myImg.setAttribute('height', "200px")
+        }
+
+        function leave3() {
+            const myImg = document.getElementById("img3")
+            myImg.src = "LION 2.jpg"
+        }
+
+        function show4() {
+            const myImg = document.getElementById("img4")
+            myImg.src = "img4.jpg"
+            myImg.setAttribute('height', "200px")
+        }
+
+        function leave4() {
+            const myImg = document.getElementById("img4")
+            myImg.src = "RABBIT.jpg"
+        }
+
+    </script>
+</body>
+
+</html>

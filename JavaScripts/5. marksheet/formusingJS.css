@@ -62,7 +62,7 @@ textarea {
 }
 
 button {
-  width: 100%;
+  width: 49%;
   padding: 12px;
   background-color: #17547e;
   border: none;
@@ -75,4 +75,14 @@ button {
 
 button:hover {
   background-color: #2980b9;
+}
+
+.form-button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-button button {
+  display: flex;
+  justify-content: space-around;
 }
