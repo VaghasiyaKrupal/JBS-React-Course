@@ -8,7 +8,8 @@ import i6 from "./assets/i6.jpg";
 import i7 from "./assets/i7.jpg";
 import i8 from "./assets/i8.jpg";
 import i9 from "./assets/i9.webp";
-import UseEffect from "./componants/UseEffect";
+import UseEff from "./componants/UseEff";
+import Form from "./componants/Form";
 
 function App() {
   return (
@@ -52,10 +53,12 @@ function App() {
       </div> */}
 
       <div className="row">
-        <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
-          <UseEffect />
-        </div>
+        {/* <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 d-flex justify-content-center">
+        <UseEff/>
+        </div> */}
       </div>
+
+      <Form />
     </div>
   );
 }
